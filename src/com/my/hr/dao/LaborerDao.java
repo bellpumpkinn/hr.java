@@ -10,7 +10,7 @@ public interface LaborerDao {
    Laborer selectLaborer(int laborerId); //특정 노동자 읽기
    void insertLaborer(String laborerName, LocalDate hireDate);
    void updateLaborer(Laborer laborer);
-   void deleteLaborer(int laborerId); 
+   void deleteLaborer(int laborerId);
 }
 /*
 1.   List<Laborer> select~() 호출시 아무것도 없으면 - 아무것도 없는 list가 출력
